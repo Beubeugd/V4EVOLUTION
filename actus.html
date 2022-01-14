@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<meta charset="utf-8">
+	<title>The V4</title>
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<div class="sidebar">
+	<div class="logo_content">
+		<div class="logo">
+			<div class="logo_name">Actualités</div>
+		</div>
+		<i class='bx bx-menu' id="btn"></i>
+	</div>
+	<ul class="nav_list">
+		<li>
+			<a href="index.html">
+				<i class='bx bx-exit'></i>
+				<span class="links_name">Retour</span>
+			</a>
+			<!-- <span class="tooltip">News</span> -->
+		</li>
+				<li>
+			<a href="citoyens.html">
+				<i class='bx bx-male'></i>
+				<span class="links_name">Citoyens</span>
+			</a>
+			<!-- <span class="tooltip">Citoyens</span> -->
+		</li>
+				<li>
+			<a href="project.html">
+				<i class='bx bx-notepad'></i>
+				<span class="links_name">Projet</span>
+			</a>
+			<!-- <span class="tooltip">Projet</span>  -->
+		</li>
+				<li>
+			<a href="https://www.youtube.com/channel/UC1TphWCI4_lc66GAwD1BUug/featured">
+				<i class='bx bxl-youtube' ></i>
+				<span class="links_name">Youtube</span>
+			</a>
+			<!-- <span class="tooltip">Youtube</span>  -->
+		</li>
+
+
+								<li>
+			<a href="games.html">
+				<i class='bx bxl-steam'></i>
+				<span class="links_name">Maps minecraft</span>
+			</a>
+			<!-- <span class="tooltip">Youtube</span>  -->
+		</li>
+									<li>
+			<a href="chill.html">
+			<i class='bx bx-flag'></i>
+				<span class="links_name">Archives</span>
+			</a>
+			<!-- <span class="tooltip">Youtube</span>  -->
+		</li>
+
+									<li>
+			<a href="helpme.html">
+				<i class='bx bx-help-circle'></i>
+				<span class="links_name">Aide</span>
+			</a>
+			<!-- <span class="tooltip">Youtube</span>  -->
+		</li>
+	</ul>
+</div>
+
+<br>
+<div class="home_content">
+	<div class="text">
+		<h1 class="A1" id="anim">Bienvenue dans la catégorie actualités !! </h1>
+		<br>
+		<h3 class="A3" id="anim">Ici nous parlerons de toutes les actualités de Beubeu, des dates des futurs projets, etc...</h3>
+		<br>
+		<br>
+		<h2 class="A2" id="anim">A chaque maj nous améliorons cette catégorie.</h2>
+		<br>
+		<h3 class="A3" id="anim">Donc rappelez vous qu'à chaque fois que nous améliorons ce site, de nouvelles actualités seront annoncés et afficher.  <br>
+		 </h3>
+		<br>
+		<br>
+		<h2 class="A2" id="anim">Sinon la prochaine maj arrive bientôt.</h2>
+		<br>
+		<h3 class="A3" id="anim">La première maj de ce site aura lieu le 10/01/2022. </h3>
+
+	</div>
+</div>
+
+
+
+
+<script>
+	
+	let btn = document.querySelector("#btn");
+	let sidebar = document.querySelector(".sidebar");
+	
+
+	btn.onclick = function() {
+
+		sidebar.classList.toggle('active');
+	}
+</script>
+
+
+
+</body>
+</html>

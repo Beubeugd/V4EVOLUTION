@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style5.css">
+	<meta charset="utf-8">
+	<title>The V4</title>
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<div class="sidebar">
+	<div class="logo_content">
+		<div class="logo">
+			
+			<div class="logo_name">Aide</div>
+		</div>
+		<i class='bx bx-menu' id="btn"></i>
+	</div>
+	<ul class="nav_list">
+		<li>
+			<a href="index.html">
+				<i class='bx bx-exit'></i>
+				<span class="links_name">Exit</span>
+			</a>
+			<!-- <span class="tooltip">News</span> -->
+		</li>
+				<li>
+			<a href="citoyens.html">
+				<i class='bx bx-male'></i>
+				<span class="links_name">Citoyens</span>
+			</a>
+			<!-- <span class="tooltip">Citoyens</span> -->
+		</li>
+				<li>
+			<a href="actus.html">
+				<i class='bx bxs-news'></i>
+				<span class="links_name">Actualités</span>
+			</a>
+			<!-- <span class="tooltip">Projet</span>  -->
+		</li>
+		<li>
+			<a href="project.html">
+				<i class='bx bx-notepad'></i>
+				<span class="links_name">Projet</span>
+			</a>
+			<!-- <span class="tooltip">Projet</span>  -->
+		</li>
+				<li>
+			<a href="https://www.youtube.com/channel/UC1TphWCI4_lc66GAwD1BUug/featured">
+				<i class='bx bxl-youtube' ></i>
+				<span class="links_name">Youtube</span>
+			</a>
+			<!-- <span class="tooltip">Youtube</span>  -->
+		</li>
+
+								<li>
+			<a href="games.html">
+				<i class='bx bxl-steam'></i>
+				<span class="links_name">Maps minecraft</span>
+			</a>
+			<!-- <span class="tooltip">Youtube</span>  -->
+		</li>
+									<li>
+			<a href="chill.html">
+			<i class='bx bx-flag'></i>
+				<span class="links_name">Archives</span>
+			</a>
+			<!-- <span class="tooltip">Youtube</span>  -->
+		</li>
+
+	</ul>
+</div>
+
+<br>
+<div class="home_content">
+	<div class="text">
+		<h1 class="A1" id="anim">Des problèmes sur le site ? </h1>
+		<br>
+		<h3 class="A3" id="anim">Cette catégorie a été créer pour vous aider si jamais vous avez des difficultés sur le site</h3>
+		<br>
+		<br>
+		<h2 class="A2" id="anim">Je suis sur téléphone et l'affichage est dégeulasse, que faire ?</h2>
+		<br>
+		<h3 class="A3" id="anim">Il y a 2 solutions, soit tu y va sur le site sur ton ordinateur (recommandé)<br>
+		soit tu met ton téléphone en mode paysage.</h3>
+		<br>
+		<br>
+		<h2 class="A2" id="anim">A part ta chaine Youtube, comment je pourrais te contacté ?</h2>
+		<br>
+		<h3 class="A3" id="anim">C'est trés simple, je suis sur instagram sur le compte @beubeu_wtf ou sur le compte @nation_atlantropeene. </h3>
+		
+	</div>
+</div>
+
+<script>
+	
+	let btn = document.querySelector("#btn");
+	let sidebar = document.querySelector(".sidebar");
+	
+
+	btn.onclick = function() {
+
+		sidebar.classList.toggle('active');
+	}
+</script>
+
+
+
+</body>
+</html>

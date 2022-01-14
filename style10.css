@@ -1,0 +1,28 @@
+.title {
+
+	color: white;
+	font-family: arial;
+	margin-top: 5%;
+	margin-left: 40%;
+    font-weight: bold;
+    font-size: 215%;
+    text-decoration: underline;
+}
+
+body {
+
+	background-color: black;
+	background-image: url(A.P.I.D.F.H.jpg);
+	background-repeat: no-repeat;
+	background-size: 200vh;
+
+}
+
+.content {
+
+	color: white;
+	font-family: arial;
+	margin-left: 30%;
+	margin-top: 5%;
+}
+

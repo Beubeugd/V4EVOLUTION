@@ -1,0 +1,58 @@
+body {
+
+	background-color: black;
+
+}
+
+
+
+.title {
+
+	color: white;
+	font-family: arial;
+	margin-top: 5%;
+	margin-left: 40%;
+    font-weight: bold;
+    font-size: 215%;
+    text-decoration: underline;
+}
+
+
+
+.content {
+	color: white;
+	font-family: arial;
+	margin-top: 5%;
+	margin-left: 25%;
+	
+}
+
+.AP {
+
+	font-size: 115%;
+}
+
+.AP2 {
+
+
+	font-size: 115%;
+	font-weight: bold;
+}
+
+.redir {
+
+	color: white;
+	font-family: arial;
+	margin-left: 25%;
+
+}
+
+.btn {
+
+
+	border: none;
+	border-radius: 15px;
+	padding: 15px;
+	margin-top: 3%;
+	margin-left: 25%;
+}

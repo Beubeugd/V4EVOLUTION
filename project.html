@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style4.css">
+	<meta charset="utf-8">
+	<title>The V4</title>
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<div class="sidebar">
+	<div class="logo_content">
+		<div class="logo">
+			
+			<div class="logo_name">Projets</div>
+		</div>
+		<i class='bx bx-menu' id="btn"></i>
+	</div>
+	<ul class="nav_list">
+		<li>
+			<a href="index.html">
+				<i class='bx bx-exit'></i>
+				<span class="links_name">Exit</span>
+			</a>
+			<!-- <span class="tooltip">News</span> -->
+		</li>
+				<li>
+			<a href="citoyens.html">
+				<i class='bx bx-male'></i>
+				<span class="links_name">Citoyens</span>
+			</a>
+			<!-- <span class="tooltip">Citoyens</span> -->
+		</li>
+				<li>
+			<a href="actus.html">
+				<i class='bx bxs-news'></i>
+				<span class="links_name">Actualités</span>
+			</a>
+			<!-- <span class="tooltip">Projet</span>  -->
+		</li>
+				<li>
+			<a href="https://www.youtube.com/channel/UC1TphWCI4_lc66GAwD1BUug/featured">
+				<i class='bx bxl-youtube' ></i>
+				<span class="links_name">Youtube</span>
+			</a>
+			<!-- <span class="tooltip">Youtube</span>  -->
+		</li>
+
+								<li>
+			<a href="games.html">
+				<i class='bx bxl-steam'></i>
+				<span class="links_name">Maps minecraft</span>
+			</a>
+			<!-- <span class="tooltip">Youtube</span>  -->
+		</li>
+									<li>
+			<a href="chill.html">
+			<i class='bx bx-flag'></i>
+				<span class="links_name">Archives</span>
+			</a>
+			<!-- <span class="tooltip">Youtube</span>  -->
+		</li>
+
+									<li>
+			<a href="helpme.html">
+				<i class='bx bx-help-circle'></i>
+				<span class="links_name">Aide</span>
+			</a>
+			<!-- <span class="tooltip">Youtube</span>  -->
+		</li>
+	</ul>
+</div>
+
+<br>
+<div class="home_content">
+	<div class="text">
+		<h1 class="A1" id="anim">Un projet mais c'est qu'est-ce que tu racconte ? </h1>
+		<br>
+		<h3 class="A3" id="anim">Comme sur la V3, on ne peut rien révéler pour l'instant. <br>
+		En tout cas c'est un réel projet qui va sortir</h3>
+		<br>
+		<br>
+		<h2 class="A2" id="anim">A quand une annonce ?</h2>
+		<br>
+		<h3 class="A3" id="anim">Eh bien, nous n'en s'avons rien, faudra encore patienté quelques semaines, le temps que nous finissont le prototype.</h3>
+		<br>
+		<br>
+		<h2 class="A2" id="anim">On peut au moins avoir juste une info?</h2>
+		<br>
+		<h3 class="A3" id="anim">NON. C'est un énorme projet (pour moi en tout cas) et nous voulions le devoilé quand tous sera achever. <br>
+		Nous voulions pas vous hyper pour l'instant. </h3>
+
+
+		
+	</div>
+</div>
+
+<script>
+	
+	let btn = document.querySelector("#btn");
+	let sidebar = document.querySelector(".sidebar");
+	
+
+	btn.onclick = function() {
+
+		sidebar.classList.toggle('active');
+	}
+</script>
+
+
+
+</body>
+</html>
